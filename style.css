@@ -72,7 +72,35 @@ img {
   clear: both;
 }
 
-/* responsive */
+/* responsive 768px tablet */
+@media screen and (width:768px){
+
+  body{
+    background-color: #f9f9f9;
+  }
+  .left, .right, .central,
+  .first, .second, .third{
+    font-size:16px;
+
+  }
+  #steps .row>.left, #steps .row>.central{
+    width:45%;
+  }
+  #steps .row>.left{
+    margin-right:10%;
+  }
+  #steps .row>.right{
+    width:50%;
+    margin: 5% 25%;
+  }
+}
+/* /responsive 768px tablet */
+
+
+
+
+
+/* responsive 420px */
 
 /* visulizzazione responsive parte lezioni */
 
