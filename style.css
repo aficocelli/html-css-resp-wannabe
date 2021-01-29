@@ -78,6 +78,7 @@ img {
 
 @media screen and (max-width:420px){
 
+
   #lezioni .row {
     margin-top:30px;
   }
@@ -96,14 +97,39 @@ img {
     margin-top: 35px
   }
 }
-/* visulizzazione responsive parte lezioni */
+/* /visulizzazione responsive parte lezioni */
 
 /* visualizzazione responsive parte steps */
 @media screen and (max-width:420px){
+
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right{
     width:100%;
+    font-size: 40px;
+    margin-top:50px;
+
   }
+
+  #steps .row img{
+    height:250px;
+  }
+
 }
-/* visualizzazione responsive parte steps */
+/* /visualizzazione responsive parte steps */
+
+
+/* visualizzazione responsive parte why */
+@media screen and (max-width:420px){
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+
+    font-size: 40px;
+  }
+
+
+}
+
+/* /visualizzazione responsive parte why */
