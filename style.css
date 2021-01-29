@@ -71,3 +71,26 @@ img {
 .clear {
   clear: both;
 }
+
+/* responsive */
+
+/* visulizzazione responsive parte lezioni */
+
+@media screen and (max-width:420px){
+
+  .row h1{
+    font-size: 64px;
+  }
+  #lezioni .row .left, #lezioni .row .right{
+    width:100%;
+    font-size: 40px;
+  }
+  #lezioni .row img{
+    height:250px;
+    margin: 20px auto;
+  }
+  #lezioni .row .right{
+    margin-top: 35px
+  }
+}
+/* visulizzazione responsive parte lezioni */
